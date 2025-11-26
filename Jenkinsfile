@@ -13,7 +13,7 @@ pipeline {
                 checkout([$class: 'GitSCM',
                     branches: [[name: '*/main']],
                     userRemoteConfigs: [[
-                        url: 'https://github.com/TO-DO-CLI.git',
+                        url: 'https://github.com/svnsaisathvik/TO-DO-CLI.git',
                         credentialsId: 'github-creds'
                     ]]
                 ])
